@@ -1,0 +1,48 @@
+{
+  "name": "best_practice_nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohits2255/Best_Practice_Nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rohits2255/Best_Practice_Nodejs/issues"
+  },
+  "homepage": "https://github.com/rohits2255/Best_Practice_Nodejs#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "bullmq": "^5.49.0",
+    "chai": "^5.2.0",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.10",
+    "eslint": "^9.24.0",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^12.3.2",
+    "lodash": "^4.17.21",
+    "mocha": "^11.1.0",
+    "mongoose": "^8.13.2",
+    "nyc": "^17.1.0",
+    "prettier": "^3.5.3",
+    "redis": "^4.7.0",
+    "sequelize": "^6.37.7",
+    "sequelize-cli": "^6.6.2",
+    "sinon": "^20.0.0"
+  },
+  "devDependencies": {
+    "nock": "^14.0.3",
+    "nodemon": "^3.1.9",
+    "supertest": "^7.1.0"
+  }
+}
